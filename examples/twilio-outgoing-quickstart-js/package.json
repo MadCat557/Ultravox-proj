@@ -1,5 +1,5 @@
 {
-  "name": "twilio-outgoing-quickstart-js",
+  "name": "twilio-outgoing-quickstart",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -7,6 +7,18 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "twilio": "^5.4.0"
-  }
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "twilio": "^5.4.3",
+    "ultravox-client": "^0.3.4",
+    "ws": "^8.18.1"
+  },
+  "description": "This Node.js application demonstrates how to make outgoing phone calls using Ultravox AI and Twilio. It sets up an AI-powered phone call where the AI agent (named Steve) will interact with the call recipient.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
