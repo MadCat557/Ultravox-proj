@@ -41,7 +41,7 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://app.ultravox.ai"
+    "url": "https://app.ultravox.ai?utm_source=docs"
   },
   "tabs": [
     {
@@ -108,6 +108,7 @@
         "guides/callstages",
         "guides/debugging",
         "guides/websockets",
+        "datamessages",
         "guides/webhooks",
         {
           "group": "Tutorials",
@@ -124,16 +125,9 @@
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Accounts & API Keys",
+      "group": "Accounts",
       "pages": [
-        "api-reference/accounts-apikeys/accounts-list",
-        "api-reference/accounts-apikeys/accounts-me-get",
-        "api-reference/accounts-apikeys/apikeys-list",
-        "api-reference/accounts-apikeys/apikeys-get",
-        "api-reference/accounts-apikeys/apikeys-post",
-        "api-reference/accounts-apikeys/apikeys-put",
-        "api-reference/accounts-apikeys/apikeys-patch",
-        "api-reference/accounts-apikeys/apikeys-delete"
+        "api-reference/accounts/accounts-me-get"
       ]
     },
     {
@@ -149,7 +143,27 @@
         "api-reference/calls/calls-stages-list",
         "api-reference/calls/calls-stages-get",
         "api-reference/calls/calls-stages-messages-list",
-        "api-reference/calls/calls-stages-tools-list"
+        "api-reference/calls/calls-stages-tools-list",
+        "api-reference/calls/calls-stages-message-audio-get"
+      ]
+    },
+    {
+      "group": "Corpora, Query, Sources",
+      "pages": [
+        "api-reference/corpora/overview",
+        "api-reference/corpora/corpora-list",
+        "api-reference/corpora/corpora-post",
+        "api-reference/corpora/corpora-get",
+        "api-reference/corpora/corpora-patch",
+        "api-reference/corpora/corpora-delete",
+        "api-reference/corpora/corpus-query",
+        "api-reference/corpora/corpora-sources-list",
+        "api-reference/corpora/corpora-sources-post",
+        "api-reference/corpora/corpora-sources-get",
+        "api-reference/corpora/corpora-sources-patch",
+        "api-reference/corpora/corpora-sources-delete",
+        "api-reference/corpora/corpora-sources-documents-list",
+        "api-reference/corpora/corpora-sources-documents-get"
       ]
     },
     {
@@ -159,7 +173,8 @@
         "api-reference/tools/tools-get",
         "api-reference/tools/tools-post",
         "api-reference/tools/tools-put",
-        "api-reference/tools/tools-delete"
+        "api-reference/tools/tools-delete",
+        "api-reference/tools/tools-history-get"
       ]
     },
     {
@@ -185,7 +200,8 @@
     {
       "group": "Schema",
       "pages": [
-        "api-reference/schema/base-tool-definition"
+        "api-reference/schema/base-tool-definition",
+        "api-reference/schema/datamessages"
       ]
     },
     {
